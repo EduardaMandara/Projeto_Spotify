@@ -1,4 +1,4 @@
-# Projeto_Spotify
+# Replicando o site do Spotify
 
 ## 🚧 Em construção 🚧
 
