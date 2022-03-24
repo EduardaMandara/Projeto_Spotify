@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body {height: 100%}
+
+/* Menu lateral */
+.cabecalho {
+    float: left;
+    width: 220px;
+    padding: 10px 10px;
+    height: 100%;
+    overflow-y: auto;
+    background-color: black;
+    overflow-x: hidden;
+    padding-bottom: 200px;
+}
+
+.logo img{
+    max-width: 200px;
+    width: 100%;
+}
+
+.menu {
+    box-sizing: border-box;
+    margin: 20px 0;
+    vertical-align: middle;
+}
+
+.menu a {
+    color: #ff1357;
+    text-decoration: none;
+    display: block;
+    flex-shrink: 0;
+    padding: 10px 0;
+    margin-left: 15px;
+}
+
+.menu a:hover {
+    color: antiquewhite;
+}
+    /* Final Menu lateral */
+
+/* Playlists */
+.playlist {
+    box-sizing: border-box;
+    margin: 20px 0;
+    vertical-align: middle;
+}
+
+.playlist a {
+    color: #ff1357;
+    text-decoration: none;
+    display: block;
+    flex-shrink: 0;
+    padding: 10px 0;
+    margin-left: 15px;
+}
+
+.playlist a:hover {
+    color: antiquewhite;
+}

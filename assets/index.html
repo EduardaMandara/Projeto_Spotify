@@ -15,37 +15,37 @@
 
     <!-- Estilos -->
     <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/cabecalho.css">
+    <link rel="stylesheet" href="/CSS/section_itens.css">
+
     <link href="./IMG/logoicon1.jpg" rel="icon">
 
-    <title>Spotfy Replay</title>
+    <title>Spotify Replay</title>
 </head>
 
 <body>
-    <header class="cabecalho">
-        <div class="logo">
-            <img src="./IMG/logo-neon.png" alt="">
-        </div>
-        <div class="menu">
-            <a href="#"><i class="fa fa-home" aria-hidden="true"></i> Inicio </a>
-            <a href="#"><i class="fa fa-search" aria-hidden="true"></i> Buscar </a>
-            <a href="#"><i class="fa fa-book" aria-hidden="true"></i> Biblioteca </a>
-        </div>
+    <navbar id="navbar">
+       <div class="navbar-container">
+           <img class="logo_azul" src="./IMG/logo.transpa.border.png" alt="">
+           <ul class="navbar-itens">
+               <li class="navbar-item"> Premium </li>
+               <li class="navbar-item"> Ajuda </li>
+               <li class="navbar-item"> Baixar </li>
+               <li class="navbar-item"> Inscrever-se </li>
+               <li class="navbar-item"> Entrar </li>             
+           </ul>
+       </div>
+    </navbar>
 
-        <div class="playlist">
-            <div>
-                <p>Playlists</p>
-                <a href="#"><i class="fa fa-plus" aria-hidden="true"></i> Criar playlist </a>
-                <a href="#"><i class="fa fa-heart" aria-hidden="true"></i> Músicas curtidas </a>
-                <a href="#"><i class="fa fa-bars" aria-hidden="true"></i> Seus episódios </a>
-            </div>
+    <main id="main">
+        <div class="main-container">
+            <h2> Música para todos </h2>
+            <p> Milhões de músicas à sua escolha. E nen precisa de cartão de crédito. </p>
+            <button class="btn-primary"> Obtenha o Spotify Free </button>
         </div>
-    </header>
-
+    </main>
     <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
-
+   
     <footer></footer>
 
     <script src="js/all.min.js"></script>
