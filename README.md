@@ -11,4 +11,4 @@ Um site Spotify com meu design.
 - CSS3;
 - JavaScript;
 
-#### Projeto desenvolvido com fins de conheciment prático. ‼
+#### Projeto desenvolvido com fins de conhecimento prático. ‼
