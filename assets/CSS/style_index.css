@@ -8,39 +8,57 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-/* Navbar */
-#navbar {
-    display: flex;
-    background-color: rgba(0, 0, 0, 0.2);
-    justify-content: center;
-    color: #239ca1;
-}
-
-.navbar-container {
-    width: 60%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 5px 0;
+/* Utility Classes */
+.btn-primary {
+    background-color: #1db954;
+    color: black;
+    text-transform: uppercase;
+    padding: 15px 60px;
+    border: none;
+    border-radius: 30px;
+    letter-spacing: 1px;
     font-weight: bold;
 }
 
-.logo_azul {
-    height: 80px;
+/* Navbar */
+#navbar {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    color: #000000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar-container {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+    font-weight: bold;
+}
+
+.logo {
+    height: 40px;
     width: auto;
 }
 
 .navbar-container ul {
     display: flex;
     list-style: none;
+    text-decoration: none;
 }
 
 .navbar-container ul li {
     padding: 0 20px;
 }
 
-.center {
-    
+.navbar-container ul li:nth-child(3) {
+    border-right: 1px solid;
 }
 
 .img_center img {
@@ -48,10 +66,145 @@ body {
     height: 580px;
 }
 
-.footer {
-    background-color: rgb(175, 243, 255);
-    display: block;
+
+/* Main */
+#main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: url('/assets/IMG/celular-com-fones.webp') center, center/cover;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: color;
+}
+
+#main .main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main .main-container h2 {
+    font-size: 4rem;
+}
+
+#main .main-container p {
+    margin: 15px 0;
+    font-size: 1.1rem;
+}
+
+
+/* Footer */
+
+#footer {
+    background-color: #000000;
+    color: white;
+    padding: 80px 0;
+
+}
+
+.footer-contant {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+}
+
+.footer-menu {
+    margin: 0 40px;
+    list-style: none;
+}
+
+.footer-menu p {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #919496;
+    font-size: 0.8rem;
+}
+
+.footer-menu-item {
+    margin: 25px 0; 
+
+}
+
+
+/* Footer Socials */
+.socials {
+    display: flex;
+}
+
+.socials i {
+    margin: 0 20px;
+    font-size: 1.7rem;
+}
+
+.socials i:hover {
+	color: var(#1db954);
+	cursor: pointer;
+}
+
+
+/* Footer Links */
+
+.footer-link {
+    display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	width: 60%;
+	margin: auto;
+	font-weight: bold;
+	color: #919496;
+	font-size: 0.75rem;
+	padding-top: 50px;
+}
+
+.footer-link .footer-link-itens .footer-link-item {
+    margin: 0 10px;
+    font-weight: bold;
+    color: #919496;
+    justify-content: space-between;
+    display: flex;
+    list-style: none;
     text-decoration: none;
-    text-align: center;
-    font-style: bold;
+    margin: auto;
+    
+}
+
+
+.footer-link-item {
+    display: flex;
+	list-style: none
+}
+
+.footer-link .footer-link-itens .footer-info-item {
+	margin: 0 10px;
+	transition: all 300ms ease;
+}
+
+.footer-link .rights .country {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.rights .country {
+    display: flex;
+}
+
+.rights .country p {
+	transition: all 300ms ease;
+}
+
+.footer-link .rights .country p:hover {
+	color: var(#1db954);
+	cursor: pointer;
+}
+
+.footer-link .rights .country .brazil-flag {
+	height: 20px;
+	width: auto;
+	display: inline-block;
+	margin-left: 10px;
 }
